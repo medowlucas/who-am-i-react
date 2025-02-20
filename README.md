@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Who Am I - Página Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Sobre o Projeto
 
-## Available Scripts
+"**Who Am I**" é uma página pessoal construída com **React**. Este projeto foi desenvolvido para apresentar um pouco sobre mim, minhas habilidades e meus projetos. Sinta-se à vontade para explorar!
 
-In the project directory, you can run:
+## 📚 Tecnologias Utilizadas
 
-### `npm start`
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **CSS**: Para estilização da página.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Apresentação pessoal
+- Informações sobre minhas habilidades e interesses
+- Design responsivo e moderno
 
-### `npm test`
+## 🎯 Objetivo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Criar uma página simples e eficaz para me apresentar de forma mais interativa e moderna.
 
-### `npm run build`
+## 👨‍💻 Autor
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Desenvolvido por [Lucas](https://github.com/medowlucas)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💬 Contato
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Email: [medowlucas@gmail.com](mailto:medowlucas@gmail.com)
+- LinkedIn: [linkedin.com/in/lucas-lopes-de-souza-guilha-53664839](https://www.linkedin.com/in/lucas-lopes-de-souza-guilha-53664839)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📥 Como Rodar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone o repositório:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/medowlucas/who-am-i-react.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Acesse o diretório do projeto:
+   ```bash
+   cd who-am-i-react
+   ```
 
-## Learn More
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
