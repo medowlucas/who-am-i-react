@@ -6,8 +6,9 @@
 
 ## 📚 Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **CSS**: Para estilização da página.
+⚛️ React.js
+🎨 CSS
+🌎 GitHub Pages para deploy
 
 ## ✨ Funcionalidades
 
