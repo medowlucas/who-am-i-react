@@ -1,5 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Define as permissões do GitHub Actions
+permissions:
+  contents: write  # Permite ao GitHub Actions fazer push e criar commits
+
 on:
   push:
     branches:
