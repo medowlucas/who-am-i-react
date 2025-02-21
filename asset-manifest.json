@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/who-am-i-react/static/css/main.c1692780.css",
-    "main.js": "/who-am-i-react/static/js/main.75053434.js",
+    "main.css": "/who-am-i-react/static/css/main.65b7b089.css",
+    "main.js": "/who-am-i-react/static/js/main.1fcbf232.js",
     "static/js/453.0b93aa1c.chunk.js": "/who-am-i-react/static/js/453.0b93aa1c.chunk.js",
     "index.html": "/who-am-i-react/index.html",
-    "main.c1692780.css.map": "/who-am-i-react/static/css/main.c1692780.css.map",
-    "main.75053434.js.map": "/who-am-i-react/static/js/main.75053434.js.map",
+    "main.65b7b089.css.map": "/who-am-i-react/static/css/main.65b7b089.css.map",
+    "main.1fcbf232.js.map": "/who-am-i-react/static/js/main.1fcbf232.js.map",
     "453.0b93aa1c.chunk.js.map": "/who-am-i-react/static/js/453.0b93aa1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1692780.css",
-    "static/js/main.75053434.js"
+    "static/css/main.65b7b089.css",
+    "static/js/main.1fcbf232.js"
   ]
 }
