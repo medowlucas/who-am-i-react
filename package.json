@@ -41,5 +41,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://medowlucas.github.io/who-am-i-react"
+  "homepage": "https://$env:REACT_APP_GITHUB_USER.github.io/who-am-i-react"
 }

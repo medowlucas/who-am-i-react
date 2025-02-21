@@ -5,7 +5,7 @@ const LinkedInPosts = () => {
 
   useEffect(() => {
     // Carregar os posts do arquivo JSON na pasta public
-    fetch('/posts.json')
+    fetch(`${process.env.PUBLIC_URL}/posts.json`)
       .then((response) => response.json())
       .then((data) => setPosts(data))
       .catch((error) => console.error("Erro ao carregar posts:", error));
@@ -19,8 +19,8 @@ const LinkedInPosts = () => {
             <h3>Post #{post.id}</h3>
             <iframe 
               src={post.iframeSrc} 
-              height="729" 
-              width="504" 
+              height="330" 
+              width="504"
               frameBorder="0" 
               allowFullScreen=""
               title={`Post ${post.id}`}

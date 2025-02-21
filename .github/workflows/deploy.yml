@@ -25,6 +25,11 @@ jobs:
       - name: Install dependencies
         run: npm install  # Instala as dependências
 
+      - name: Set homepage dynamically
+        run: |
+          jq '.homepage = "https://${{ secrets.REACT_APP_GITHUB_USER }}.github.io/who-am-i-react"' package.json > temp.json
+          mv temp.json package.json
+
       - name: Build the project
         run: npm run build  # Gera a pasta 'build/'
         env:
