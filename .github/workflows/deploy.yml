@@ -27,9 +27,14 @@ jobs:
 
       - name: Build the project
         run: npm run build  # Gera a pasta 'build/'
+        env:
+          REACT_APP_NAME: ${{ secrets.REACT_APP_NAME }}
+          REACT_APP_JOB_TITLE: ${{ secrets.REACT_APP_JOB_TITLE }}
+          REACT_APP_LINKEDIN: ${{ secrets.REACT_APP_LINKEDIN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3  # Ação que envia para o GitHub Pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Token de autenticação
           publish_dir: ./build  # Diretório a ser enviado para o GitHub Pages
+      
